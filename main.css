@@ -1,0 +1,68 @@
+body{
+	background: rgb(23, 166, 176);
+}
+
+main{
+    background-color: blueviolet;
+    border-style: dotted;
+    margin: 20pt;
+}
+
+h1{
+	font-size: larger;
+    color: black;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-weight: bolder;
+}
+
+h2{
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	font-family: Arial, sans-serif;
+}
+
+section{
+    padding: 10pt;
+    margin: 20pt;
+    background-color: rgb(255, 0, 157);
+}
+
+article{
+    padding: 10pt;
+    margin: 20pt;
+    background-color: rgb(38, 0, 255);
+}
+
+nav{
+    margin: 20pt;
+    background-color: rgb(0, 174, 255);
+}
+
+p{
+	color: black;
+	text-align: center;
+	font-size: 20px;
+	font-family: Arial, sans-serif;
+	font-weight: bolder;
+}
+
+header{
+	color: black;
+	text-align: center;
+	font-size: 30px;
+	font-family: Arial, sans-serif;
+}
+
+ul{
+	color: white;
+    font-size: 20px;
+	font-family: Arial, sans-serif;
+}
+
+footer{
+	text-align: center;
+    font-size: 30px;
+	font-family: Arial, sans-serif;
+}
