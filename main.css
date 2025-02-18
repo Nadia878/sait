@@ -1,15 +1,23 @@
 body{
-	background: rgb(23, 166, 176);
+	background: rgb(255, 255, 255);
 }
 
 main{
-    background-color: blueviolet;
+    background-color: rgba(0, 0, 255);
     border-style: dotted;
     margin: 20pt;
 }
 
+img{
+	align: middle;
+	display: block;
+	margin: auto;
+	width: 320px;
+    height: auto;
+}
+
 h1{
-	font-size: larger;
+	font-size: 30px;
     color: black;
 	text-align: center;
 	font-family: Arial, sans-serif;
@@ -18,26 +26,41 @@ h1{
 
 h2{
 	text-align: center;
-	color: white;
-	font-size: 30px;
+	color: hwb(0 100% 0%);
+	font-size: 25px;
 	font-family: Arial, sans-serif;
+}
+
+h3{
+	text-align: center;
+	color: rgb(255, 215, 0);
+	font-size: 20px;
+	font-family: Arial, sans-serif;
+}
+
+span{
+	font-size: 17px;
+    color: rgb(177, 12, 20);
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-weight: bolder;
 }
 
 section{
     padding: 10pt;
     margin: 20pt;
-    background-color: rgb(255, 0, 157);
+    background-color: rgb(255, 0, 0);
 }
 
 article{
     padding: 10pt;
     margin: 20pt;
-    background-color: rgb(38, 0, 255);
+    background-color: rgb(255, 0, 0);
 }
 
 nav{
     margin: 20pt;
-    background-color: rgb(0, 174, 255);
+    background-color: rgba(255, 255, 255);
 }
 
 p{
@@ -46,6 +69,15 @@ p{
 	font-size: 20px;
 	font-family: Arial, sans-serif;
 	font-weight: bolder;
+}
+
+table{
+	color: rgb(213, 216, 9);
+	text-align: center;
+	font-size: 17px;
+	font-family: Arial, sans-serif;
+	font-weight: bolder;
+	display: inline-block;
 }
 
 header{
@@ -63,6 +95,35 @@ ul{
 
 footer{
 	text-align: center;
-    font-size: 30px;
+    font-size: 20px;
 	font-family: Arial, sans-serif;
 }
+
+.container{
+	text-align: center;
+	display: flex;
+	margin: 10pt;
+	height: auto;
+	max-width: 100%;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+	vertical-align: top;
+	flex-wrap: wrap;
+	align-content: space-between;
+	padding: 20pt;
+}
+
+.vcard{
+	text-align: center;
+	display: block;
+	margin: auto;
+	width: 70;
+    height: auto;
+	font-size: 15px;
+	padding: 20pt;
+}
+
+@media (min-width: 544px) and (max-width: 1200px){
+	table.container td (display: flex;)
+}	
